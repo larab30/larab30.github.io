@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <title>Mi Blog</title>
     <link rel="icon" type="image/x-icon" href="images/descarga(1).ico">
+    <!-- Vinculamos el archivo CSS externo -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <h1 style="color: #2a52be; font-size: 3em; font-family: Arial, Helvetica, sans-serif; text-align: center;">Mi Blog</h1>
+    <h1>Mi Blog</h1>
+    <p><strong>Nombre:</strong> Lara Perez Berakhah Efratah</p>
+    <p><strong>Edad:</strong> 18 años</p>
+    <p><strong>Cumpleaños:</strong> 26 de marzo</p>
+    <p><strong>Lugar de nacimiento:</strong> Ramos Arizpe, Coahuila</p>
+    <p><strong>Comida favorita:</strong> Hamburguesas</p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/larab_jk" target="_blank">@larab_jk</a></p>
+    <p><strong>Correo electrónico:</strong> <a href="mailto:beralara74@gmail.com">beralara74@gmail.com</a></p>
 
-    <p style="color: #222; font-size: 1em; font-family: 'Courier New', Courier, monospace; text-align: center;"><strong>Nombre:</strong> Lara Perez Berakhah Efratah</p>
-    <p style="color: #222; font-size: 1em; font-family: 'Courier New', Courier, monospace; text-align: center;"><strong>Edad:</strong> 18 años</p>
-    <p style="color: #222; font-size: 1em; font-family: 'Courier New', Courier, monospace; text-align: center;"><strong>Cumpleaños:</strong> 26 de marzo</p>
-    <p style="color: #222; font-size: 1em; font-family: 'Courier New', Courier, monospace; text-align: center;"><strong>Lugar de nacimiento:</strong> Ramos Arizpe, Coahuila</p>
-    <p style="color: #222; font-size: 1em; font-family: 'Courier New', Courier, monospace; text-align: center;"><strong>Comida favorita:</strong> Hamburguesas</p>
-    <p style="color: #222; font-size: 1em; font-family: 'Courier New', Courier, monospace; text-align: center;"><strong>Instagram:</strong> <a href="https://instagram.com/larab_jk" target="_blank">@larab_jk</a></p>
-    <p style="color: #222; font-size: 1em; font-family: 'Courier New', Courier, monospace; text-align: center;"><strong>Correo electrónico:</strong> <a href="mailto:beralara74@gmail.com">beralara74@gmail.com</a></p>
-
-    <div style="text-align: center;">
-        <img src="images/descarga.jpg" alt="Foto de perfil" width="200">
-    </div>
+    <img src="images/descarga.jpg" alt="Foto de perfil" width="200">
 
     <ul>
         <li>Le gusta la música</li>
@@ -27,8 +26,8 @@
         <li>Dormirholic</li>
     </ul>
 
-    <h2 style="text-align: center;">📅 Mi rutina favorita</h2>
-    <table border="1" align="center">
+    <h2>📅 Mi rutina favorita</h2>
+    <table>
         <tr>
             <th>Hora</th>
             <th>Actividad</th>
@@ -58,22 +57,32 @@
 
     <hr>
 
-    <h2 style="text-align: center;">Deja tu comentario o sugerencia</h2>
-    <form style="text-align: center;">
-        <label>Nombre:<br><input type="text" name="nombre"></label><br><br>
-        <label>Correo electrónico:<br><input type="email" name="correo"></label><br><br>
-        <label>¿Qué te gustaría ver en el blog?<br><input type="text" name="gusto"></label><br><br>
-        <label>¿Te resultó fácil navegar por la página?<br>
+    <h2>Deja tu comentario o sugerencia</h2>
+    <form>
+        <label>Nombre:
+            <input type="text" name="nombre">
+        </label>
+        <label>Correo electrónico:
+            <input type="email" name="correo">
+        </label>
+        <label>¿Qué te gustaría ver en el blog?
+            <input type="text" name="gusto">
+        </label>
+        <label>¿Te resultó fácil navegar por la página?
             <select name="facil_navegar">
                 <option value="si">Sí</option>
                 <option value="no">No</option>
             </select>
-        </label><br><br>
-        <label>¿Tienes alguna sugerencia de mejora?<br><textarea name="sugerencia" rows="3" cols="30"></textarea></label><br><br>
-        <label>Comentario general:<br><textarea name="comentario" rows="4" cols="40"></textarea></label><br><br>
+        </label>
+        <label>¿Tienes alguna sugerencia de mejora?
+            <textarea name="sugerencia" rows="3"></textarea>
+        </label>
+        <label>Comentario general:
+            <textarea name="comentario" rows="4"></textarea>
+        </label>
         <input type="submit" value="Enviar">
     </form>
 
-</body>
+</body> 
 </html>
-0
+
