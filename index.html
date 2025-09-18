@@ -4,85 +4,92 @@
     <meta charset="UTF-8">
     <title>Mi Blog</title>
     <link rel="icon" type="image/x-icon" href="images/descarga(1).ico">
-    <!-- Vinculamos el archivo CSS externo -->
+    <!-- Enlace al archivo CSS externo -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Mi Blog</h1>
 
-    <h1>Mi Blog</h1>
-    <p><strong>Nombre:</strong> Lara Perez Berakhah Efratah</p>
-    <p><strong>Edad:</strong> 18 años</p>
-    <p><strong>Cumpleaños:</strong> 26 de marzo</p>
-    <p><strong>Lugar de nacimiento:</strong> Ramos Arizpe, Coahuila</p>
-    <p><strong>Comida favorita:</strong> Hamburguesas</p>
-    <p><strong>Instagram:</strong> <a href="https://instagram.com/larab_jk" target="_blank">@larab_jk</a></p>
-    <p><strong>Correo electrónico:</strong> <a href="mailto:beralara74@gmail.com">beralara74@gmail.com</a></p>
+        <div class="info">
+            <p><strong>Nombre:</strong> Lara Perez Berakhah Efratah</p>
+            <p><strong>Edad:</strong> 18 años</p>
+            <p><strong>Cumpleaños:</strong> 26 de marzo</p>
+            <p><strong>Lugar de nacimiento:</strong> Ramos Arizpe, Coahuila</p>
+            <p><strong>Comida favorita:</strong> Hamburguesas</p>
+            <p><strong>Instagram:</strong> <a href="https://instagram.com/larab_jk" target="_blank">@larab_jk</a></p>
+            <p><strong>Correo:</strong> <a href="mailto:beralara74@gmail.com">beralara74@gmail.com</a></p>
+        </div>
 
-    <img src="images/descarga.jpg" alt="Foto de perfil" width="200">
+        <img src="images/descarga.jpg" alt="Foto de perfil de Lara">
 
-    <ul>
-        <li>Le gusta la música</li>
-        <li>Disfruta ver series y películas</li>
-        <li>Dormirholic</li>
-    </ul>
+        <ul>
+            <li>Le gusta la música</li>
+            <li>Disfruta ver series y películas</li>
+            <li>Le encanta dormir</li>
+        </ul>
 
-    <h2>📅 Mi rutina favorita</h2>
-    <table>
-        <tr>
-            <th>Hora</th>
-            <th>Actividad</th>
-            <th>Estado de ánimo</th>
-        </tr>
-        <tr>
-            <td>08:00 AM</td>
-            <td>Levantarse al baño</td>
-            <td>🎶 Relajada</td>
-        </tr>
-        <tr>
-            <td>01:00 PM</td>
-            <td>Hora de comer</td>
-            <td>🍔 Feliz</td>
-        </tr>
-        <tr>
-            <td>06:00 PM</td>
-            <td>Ver series</td>
-            <td>📺 Entretenida</td>
-        </tr>
-        <tr>
-            <td>12:00 PM</td>
-            <td>Dormir</td>
-            <td>😴 Tranquila</td>
-        </tr>
-    </table>
+        <hr>
 
-    <hr>
+        <h2>📅 Mi rutina favorita</h2>
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Actividad</th>
+                <th>Estado de ánimo</th>
+            </tr>
+            <tr>
+                <td>08:00 AM</td>
+                <td>Escuchar música</td>
+                <td>🎶 Relajada</td>
+            </tr>
+            <tr>
+                <td>01:00 PM</td>
+                <td>Comer hamburguesas</td>
+                <td>🍔 Feliz</td>
+            </tr>
+            <tr>
+                <td>06:00 PM</td>
+                <td>Ver series</td>
+                <td>📺 Entretenida</td>
+            </tr>
+            <tr>
+                <td>11:00 PM</td>
+                <td>Dormir</td>
+                <td>😴 Tranquila</td>
+            </tr>
+        </table>
 
-    <h2>Deja tu comentario o sugerencia</h2>
-    <form>
-        <label>Nombre:
-            <input type="text" name="nombre">
-        </label>
-        <label>Correo electrónico:
-            <input type="email" name="correo">
-        </label>
-        <label>¿Qué te gustaría ver en el blog?
-            <input type="text" name="gusto">
-        </label>
-        <label>¿Te resultó fácil navegar por la página?
-            <select name="facil_navegar">
-                <option value="si">Sí</option>
-                <option value="no">No</option>
-            </select>
-        </label>
-        <label>¿Tienes alguna sugerencia de mejora?
-            <textarea name="sugerencia" rows="3"></textarea>
-        </label>
-        <label>Comentario general:
-            <textarea name="comentario" rows="4"></textarea>
-        </label>
-        <input type="submit" value="Enviar">
-    </form>
+        <hr>
 
-</body> 
+        <h2>Deja tu comentario o sugerencia</h2>
+        <form>
+            <label>Nombre:
+                <input type="text" name="nombre">
+            </label>
+            <label>Correo electrónico:
+                <input type="email" name="correo">
+            </label>
+            <label>¿Qué te gustaría ver en el blog?
+                <input type="text" name="gusto">
+            </label>
+            <label>¿Te resultó fácil navegar por la página?
+                <select name="facil_navegar">
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+            </label>
+            <label>¿Tienes alguna sugerencia de mejora?
+                <textarea name="sugerencia" rows="3"></textarea>
+            </label>
+            <label>Comentario general:
+                <textarea name="comentario" rows="4"></textarea>
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
 </html>
+
+
 
